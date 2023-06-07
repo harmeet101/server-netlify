@@ -6,6 +6,8 @@
   "scripts": {
     "build:functions": "netlify functions:build --src netlify/functions",
     "build": "netlify build",
+    "dev": "netlify dev",
+    "serve:functions": "netlify functions:serve",
     "start": "node server-local.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
